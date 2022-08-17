@@ -1,7 +1,7 @@
 #====================================================================
 #
 #              Winimx - Winim minified code generator
-#                 (c) Copyright 2016-2021 Ward
+#                 (c) Copyright 2019-2022 Ward
 #
 #====================================================================
 
@@ -369,9 +369,11 @@ when isMainModule:
       #====================================================================
       #
       #               Winim - Nim's Windows API Module
-      #                 (c) Copyright 2016-2021 Ward
+      #                 (c) Copyright 2016-2022 Ward
       #
       #====================================================================
+
+      {.push hint[Name]: off.}
     """.unindent
 
     if minifier.used:
@@ -433,7 +435,7 @@ when isMainModule:
     const version = getVersion()
     echo """
 Winimx - Winim minified code generator [Database: Winim $1]
-Copyright (c) 2019-2021 by Ward
+Copyright (c) 2019-2022 by Ward
 
 Usage: winimx [options] inputfile(s)
 

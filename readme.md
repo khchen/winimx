@@ -18,4 +18,4 @@ If *winimx* is installed by nimble, the *winimx.exe* should be placed in the cor
 ## License
 Read license.txt for more details.
 
-Copyright (c) 2016-2021Kai-Hung Chen, Ward. All rights reserved.
+Copyright (c) 2016-2022 Kai-Hung Chen, Ward. All rights reserved.

@@ -1,17 +1,17 @@
 # Package
 
-version       = "1.0.0"
+version       = "1.1.0"
 author        = "Ward"
 description   = "Winimx - Winim minified code generator"
 license       = "MIT"
 skipDirs      = @["examples"]
 bin           = @["winimx"]
 
-# winim_version = "3.6.1"
+# winim_version = "3.9.0"
 
 # Dependencies
 
-requires "nim >= 1.4.0", "winim >= 3.6.0", "zippy >= 0.5.7", "jsony >= 1.0.1"
+requires "nim >= 1.4.0", "winim >= 3.7.1", "zippy >= 0.5.7", "jsony >= 1.0.1"
 
 # Examples
 
